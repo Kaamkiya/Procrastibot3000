@@ -6,6 +6,6 @@
 *.test
 *.out
 go.work
-/piscinemolitor
+/brokencassette
 .DS_Store
 .env

@@ -6,7 +6,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/Kaamkiya/piscinemolitor/cmds"
+	"github.com/Kaamkiya/brokencassette/cmds"
 	"github.com/bwmarrin/discordgo"
 )
 

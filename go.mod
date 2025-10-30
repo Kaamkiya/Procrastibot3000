@@ -1,4 +1,4 @@
-module github.com/Kaamkiya/piscinemolitor
+module github.com/Kaamkiya/brokencassette
 
 go 1.25.3
 
