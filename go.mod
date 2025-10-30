@@ -1,4 +1,4 @@
-module github.com/Kaamkiya/brokencassette
+module github.com/Kaamkiya/procrastibot3000
 
 go 1.25.3
 

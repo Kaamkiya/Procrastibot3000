@@ -75,7 +75,7 @@ P4 - %s`
 		Data: &discordgo.InteractionResponseData{
 			Embeds: []*discordgo.MessageEmbed{
 				{
-					Title:       fmt.Sprintf("%s Schedule", dayTypeFormal),
+					Title:       fmt.Sprintf("%s - %s Schedule", optionMap["date"].StringValue(), dayTypeFormal),
 					Description: schedule,
 					Color:       0x1abc9c,
 				},

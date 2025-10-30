@@ -6,6 +6,6 @@
 *.test
 *.out
 go.work
-/brokencassette
+/procrastibot3000
 .DS_Store
 .env

@@ -6,7 +6,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/Kaamkiya/brokencassette/cmds"
+	"github.com/Kaamkiya/procrastibot3000/cmds"
 	"github.com/bwmarrin/discordgo"
 )
 
@@ -43,6 +43,12 @@ var (
 					Type:        discordgo.ApplicationCommandOptionString,
 					Name:        "day-type",
 					Description: "The type of day: normal, lateStart, halfDay, assembly",
+					Required:    true,
+				},
+				{
+					Type:        discordgo.ApplicationCommandOptionString,
+					Name:        "date",
+					Description: "When the schedule is for",
 					Required:    true,
 				},
 			},
