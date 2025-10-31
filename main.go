@@ -53,6 +53,18 @@ var (
 				},
 			},
 		},
+		{
+			Name:        "define",
+			Description: "Get the definition of a word",
+			Options: []*discordgo.ApplicationCommandOption{
+				{
+					Type:        discordgo.ApplicationCommandOptionString,
+					Name:        "word",
+					Description: "The word to define",
+					Required:    true,
+				},
+			},
+		},
 	}
 
 	commandHandlers = map[string]func(s *discordgo.Session, i *discordgo.InteractionCreate){
@@ -65,6 +77,7 @@ var (
 			})
 		},
 		"schedule": cmds.Schedule,
+		"define":   cmds.Define,
 	}
 )
 
